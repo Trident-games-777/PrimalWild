@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_loading"
+    tools:context=".wild_loading.WildLoading">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="@font/my_font"
+        android:text="@string/primal_wild"
+        android:textColor="@color/tint_color"
+        android:textSize="80sp"
+        android:textStyle="bold" />
+
+    <com.eyalbira.loadingdots.LoadingDots
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:LoadingDots_dots_color="@color/dots_color"
+        app:LoadingDots_dots_count="4"
+        app:LoadingDots_dots_size="25dp"
+        app:LoadingDots_dots_space="10dp"
+        app:LoadingDots_jump_duration="200"
+        app:LoadingDots_jump_height="25dp" />
+
+</FrameLayout>

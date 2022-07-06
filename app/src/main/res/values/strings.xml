@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PrimalWild</string>
+    <string name="_100">= 100</string>
+    <string name="_200">= 200</string>
+    <string name="_300">= 300</string>
+    <string name="_500">= 500</string>
+    <string name="_0">0</string>
+    <string name="next">Next</string>
+
+    <string name="id">1480041652445206</string>
+    <string name="token">1e2f9ff29208515dbc2e257df6cc651e</string>
+    <string name="primal_wild">Primal Wild</string>
+</resources>
